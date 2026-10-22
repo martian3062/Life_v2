@@ -1,0 +1,50 @@
+[
+  {
+    "asset": "Poly Haven namaqualand_cliff_01",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/namaqualand_cliff_01/namaqualand_cliff_01_2k.fbx",
+    "license": "CC0-1.0",
+    "sha256": "ee5bb2ab237f3fe8d03330324cee735c3fd07c8ff2c2c5f32e5a00868aceee9b"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_01",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/namaqualand_cliff_01/namaqualand_cliff_01_diff_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "72501708e40c12e315b24e606555193af0f89bc189d26072bc0021a1ca362ed0"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_01",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/namaqualand_cliff_01/namaqualand_cliff_01_nor_dx_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "c27bb0185f37c3413d5b3a53782e23a45f3a33ed26c5e746128f442e806be2e2"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_01",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/namaqualand_cliff_01/namaqualand_cliff_01_rough_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "6153f1e7168c13b8750adfcccc3d2b4153f47b87142d45fbd09078c850b960ad"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/namaqualand_cliff_02/namaqualand_cliff_02_2k.fbx",
+    "license": "CC0-1.0",
+    "sha256": "465bf72788387b5ef4306bd3858610c942a7cf127b8a84a555e6aa5cd39b209d"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/namaqualand_cliff_02/namaqualand_cliff_02_diff_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "9618e2a42155b93189e0bac9edebcc46a6af1357f4f6ed56f79ca1714690d4f0"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/namaqualand_cliff_02/namaqualand_cliff_02_nor_dx_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "6ca45e108370bf29dde40f543513f08d9dd56e6daca0403ef3235ff9306c8b8d"
+  },
+  {
+    "asset": "Poly Haven namaqualand_cliff_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/namaqualand_cliff_02/namaqualand_cliff_02_rough_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "0746fee5db424d016ccfa3357644575fdeeebef91b9bd4db4c92b908b17c2cd4"
+  }
+]

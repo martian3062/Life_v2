@@ -1,0 +1,26 @@
+[
+  {
+    "asset": "ambientCG Rock030",
+    "url": "https://ambientcg.com/get?file=Rock030_2K-JPG.zip",
+    "license": "CC0-1.0",
+    "sha256": "18992ddc09f8f0cc60eceb875243c0c2449666c662ab7fedbd8bdea4b3d15a99"
+  },
+  {
+    "asset": "Poly Haven rock_boulder_dry Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_boulder_dry/rock_boulder_dry_diff_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "c66de7f7b48ef1ba542c17af780787ca6d43da2160a46ff3544dd9fcdf65ca30"
+  },
+  {
+    "asset": "Poly Haven rock_boulder_dry nor_dx",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_boulder_dry/rock_boulder_dry_nor_dx_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "d95f1b4972e7d83ab4b02688b28661b60b60f8991b50d4ea6e989e3221d01f47"
+  },
+  {
+    "asset": "Poly Haven rock_boulder_dry Rough",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_boulder_dry/rock_boulder_dry_rough_2k.jpg",
+    "license": "CC0-1.0",
+    "sha256": "63bb4105e6f60b5968da785afc292b94026a5afa6f18388e98b00232e9e2c433"
+  }
+]

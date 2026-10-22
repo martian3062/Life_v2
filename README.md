@@ -1,9 +1,23 @@
 # XENO
 
+The [canyon vertical slice](docs/canyon_vertical_slice.md) adds DX12/SM6 rendering,
+Nanite cliff/rock assets with CC0 PBR textures, controlled native Unreal MCP
+authoring, Newton rover dynamics and a live 2D thermal flow. Scientific F0 state
+remains independent. Start the studio and select the Mineral canyon preset.
+
 XENO now has a runnable headless investigation prototype based on
 `XENO_Detailed_Project_Blueprint.md`. Python owns scientific state and the mission clock.
-A native Unreal Engine 5.8 runtime client now connects to the service; see
+A native Unreal Engine 5.8 runtime client now connects to the service, with a procedural basin,
+six-wheel rover and field station; see
 [Unreal setup and verification](docs/unreal_handoff.md).
+
+The [Scenario Studio](docs/scenario_studio.md) connects GPT-6 Luna prompts to three detailed
+Unreal settings: mineral canyon, glacier fissure and basalt caldera. Start it with
+`.\scripts\Start-XenoStudio.ps1` and open <http://127.0.0.1:8770>. Scene changes rebuild live.
+
+[The Well integration](docs/well_physics.md) adds verified recorded density/velocity fields from
+Polymathic AI. Run `uv run python -m xeno.cli well-prepare` to prepare the bounded reference;
+the Unreal launcher attaches it automatically. Press **P** to toggle its playback patch.
 
 With the API running, launch the checked Windows demo from this workspace:
 
@@ -69,7 +83,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8766/v1/episodes/$($xenoEpisode.episode
 - SQLite transactions, restartable state, revisions, duplicate-request protection and result lookup.
 - Separate evaluator and per-episode investigator credentials; explicit observation allowlists.
 - HTTP actions, streamed WebSocket observations and event resynchronization.
-- An Unreal C++ bridge, minimal mission scene and HUD, and reproducible runtime checks.
+- An Unreal C++ bridge, 3D basin environment, detailed rover, compact HUD and runtime checks.
 - Passive, random, fixed and uncertainty-adaptive baseline policies with evidence-linked reports.
 - Development comparisons, raw observation replay, private checkpoints, array exports and provenance.
 
@@ -96,6 +110,7 @@ model, LLM account, GPU or Unreal installation is required for these commands.
 See [scientific scope](docs/scientific_scope.md), [API protocol](docs/protocol.md),
 [implementation status](docs/implementation_status.md) and the
 [Unreal connection](docs/unreal_handoff.md).
+See [the environment design and controls](docs/visual_environment.md) for the 3D presentation.
 
 The initial verification passed 36 tests and a 32-episode development comparison.
 See [the recorded checks and limitations](docs/verification.md).

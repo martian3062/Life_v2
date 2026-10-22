@@ -1,0 +1,17 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Science",
+  "Description": "XENO external simulation runtime client",
+  "Modules": [
+    {"Name": "Xeno", "Type": "Runtime", "LoadingPhase": "Default"},
+    {"Name": "XenoAuthoring", "Type": "Editor", "LoadingPhase": "Default"}
+  ],
+  "Plugins": [
+    {"Name": "PythonScriptPlugin", "Enabled": true, "TargetAllowList": ["Editor"]},
+    {"Name": "ModelContextProtocol", "Enabled": true, "TargetAllowList": ["Editor"]},
+    {"Name": "ToolsetRegistry", "Enabled": true, "TargetAllowList": ["Editor"]},
+    {"Name": "AndroidFileServer", "Enabled": false}
+    ,{"Name": "ProceduralMeshComponent", "Enabled": true}
+  ]
+}

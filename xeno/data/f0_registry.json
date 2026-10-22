@@ -1,0 +1,24 @@
+{
+  "registry_id": "f0_maintenance_v1",
+  "evidence_class": "hypothetical",
+  "provenance": "Engineering fixtures derived from blueprint sections 7, 9 and 26; no empirical rate source",
+  "units": {"growth_s": "1/s", "loss_s": "1/s", "thermal_coefficient_K": "1/K"},
+  "validity_domain": {"temperature_K": [285, 315], "solvent": "aqueous_demo_v1", "pressure_Pa": 101325},
+  "species": [
+    {"id": "resource", "basis": "one conserved token", "phase": "effective compartment", "evidence_class": "hypothetical"},
+    {"id": "structure", "basis": "one conserved token", "phase": "effective compartment", "evidence_class": "hypothetical"},
+    {"id": "waste", "basis": "one conserved token", "phase": "effective compartment", "evidence_class": "hypothetical"}
+  ],
+  "reactions": [
+    {"id": "growth", "stoichiometry": [-1, 1, 0], "evidence_class": "hypothetical"},
+    {"id": "loss", "stoichiometry": [0, -1, 1], "evidence_class": "hypothetical"}
+  ],
+  "families": {
+    "maintenance_fast": {"growth_s": 0.018, "loss_s": 0.008, "thermal_coefficient_K": 0.020, "saturating": true},
+    "maintenance_buffered": {"growth_s": 0.009, "loss_s": 0.003, "thermal_coefficient_K": 0.012, "saturating": true},
+    "mineral_growth": {"growth_s": 0.012, "loss_s": 0.0001, "thermal_coefficient_K": 0.065, "saturating": false},
+    "abiotic_catalyst": {"growth_s": 0.015, "loss_s": 0.006, "thermal_coefficient_K": 0.080, "saturating": false}
+  },
+  "parameter_generation": {"shared_rate_multiplier": [0.85, 1.15], "resource_token_m3": [7, 9], "structure_token_m3": [1.8, 2.2]},
+  "scope": "Aggregate effective maintenance kinetics; no individuals, division, inheritance, atomistic chemistry or thermodynamic validation"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "seed": 1042,
+  "family": "maintenance_fast",
+  "grid_size": 8,
+  "temperature_K": 298.15,
+  "solvent_profile": "aqueous_demo_v1",
+  "pressure_Pa": 101325,
+  "duration_s": 1200,
+  "battery_j": 1000,
+  "lab_actions": 4,
+  "instrument_readings": 200,
+  "max_containers": 8,
+  "solver_step_s": 0.25
+}
